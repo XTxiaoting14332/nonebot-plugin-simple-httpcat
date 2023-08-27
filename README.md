@@ -8,7 +8,7 @@
 
 # nonebot-plugin-simple-httpcat
 
-_✨ 适用于nonebot2 v11、简单粗暴的httpcat插件 调用https://http.cat的图片✨_
+_✨ 适用于nonebot2 v11、简单粗暴的httpcat插件 调用http.cat的图片✨_
 
 
 <a href="./LICENSE">
@@ -25,7 +25,7 @@ _✨ 适用于nonebot2 v11、简单粗暴的httpcat插件 调用https://http.cat
 
 ## 📖 介绍
 
-简单粗暴的httpcat插件，参考了<a href="https://github.com/zjkwdy/nonebot_plugin_weather_lite">zjkwdy大佬的weather_lite插件</a>,调用了https://http.cat中的图片(<br>
+简单粗暴的httpcat插件，参考了<a href="https://github.com/zjkwdy/nonebot_plugin_weather_lite">zjkwdy大佬的weather_lite插件</a>,调用了http.cat中的图片(<br>
 
 
 ## 💿 安装
