@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "nonebot-plugin-simple-httpcat"
+version = "0.0.1"
+description = "适用于nonebot2 v11、简单粗暴的httpcat插件 调用https://http.cat的图片"
+authors = ["【夜风】NightWind <2125714976@qq.com>"]
+license = "GPL-3"
+readme = "README.md"
+packages = [{include = "nonebot_plugin_simple_httpcat"}]
+homepage = "https://github.com/XTxiaoting14332/nonebot-plugin-simple-httpcat"
+repository = "https://github.com/XTxiaoting14332/nonebot-plugin-simple-httpcat"
+documentation = "https://github.com/XTxiaoting14332/nonebot-plugin-simple-httpcat#README.md"
+
+[[tool.poetry.source]]
+name = "tsinghua"
+url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple/"
+default = true
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+nonebot2 = ">=2.0.0rc1"
+nonebot-adapter-onebot = ">=2.0.0"
+httpx = ">=0.22.0"
+ujson = ">=5.0.0"
+Pillow = ">=9.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
